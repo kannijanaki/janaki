@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>transition</title>
+    <style>
+     #a{
+        height: 800px;
+        width: 1000px;
+        background-color: gray;
+     }
+     #b{
+        height: 200px;
+        width: 200px;
+        background-color: pink;
+        float: left;
+        position: relative;
+        top: 30px;
+       left: 30px;
+       transition-delay:background-color;
+       transition: all 4s;
+       
+     }
+     #b:hover{
+       width: 200px;
+       background-color: green;
+       border-radius: 200px;
+     }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <div id="b"></div>
+    </div>
+</body>
+</html>
